@@ -1,0 +1,56 @@
+.logo {
+    width: 100%;
+    max-width: 130px;
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    z-index: 30;
+  }
+  
+  .logoImg {
+    width: 100%;
+  }
+  
+  .logoLink {
+      display: block;
+  }
+  
+  .hamburger {
+      width: 60px;
+      height: 60px;
+      background-color: #fff;
+      border-radius: 50%;
+      cursor: pointer;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 30;
+  }
+  
+  .hamburger span {
+      width: 30px;
+      height: 2px;
+      background-color: #121212;
+      display: inline-block;
+      position: absolute;
+      left: 15px;
+      transition: all 0.4s;
+  }
+  
+  .hamburger span:nth-of-type(1) {
+    top: 25px;
+  }
+  
+  .hamburger span:nth-of-type(2) {
+    top: 35px;
+  }
+  
+  .hamburgerActive span:nth-of-type(1) {
+    top: 30px;
+    transform: rotate(-30deg);
+  }
+  
+  .hamburgerActive span:nth-of-type(2) {
+    top: 30px;
+    transform: rotate(30deg);
+  }
